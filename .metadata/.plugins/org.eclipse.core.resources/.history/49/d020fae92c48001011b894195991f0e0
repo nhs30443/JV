@@ -1,0 +1,37 @@
+public class Reigai {
+	public static void main(String[] args) {
+		System.out.println("例外処理");
+		
+		System.out.println(1 + 5);
+		int a = 1 + 5;
+		// "5"という文字列を数値に変換
+		a = 1 + Integer.parseInt("5");
+		System.out.println(a);
+		
+//		// これはエラーになる
+//		a = 1 + Integer.parseInt("a");
+//		System.out.println(a);
+		
+		// 数字ではないものを型変換してしまった場合の例外処理
+		try {
+			// try {} catch(e) {}
+			//   通称トライキャッチ
+			//   try: 試行 の括弧で囲われた中で起こった例外は
+			//   catch: 捕らえる
+
+			a = 1 + Integer.parseInt("a");
+			System.out.println(a);
+		}catch (NullPointerException e) {
+			// NullPointerExceptionはnull値を操作しようとした際の例外のみを取り扱う
+			System.out.println("null操作不可");
+		}catch (NumberFormatException e) {
+			// NumberFormatExceptionは数値への型変換の例外のみを取り扱う
+			System.out.println("数値変換不可");
+		}catch (Exception e) {
+			// Exceptionは全ての例外を取り扱う
+			System.out.println("例外発生");
+		}
+		
+		System.out.println("try-catch 終了後");
+	}
+}

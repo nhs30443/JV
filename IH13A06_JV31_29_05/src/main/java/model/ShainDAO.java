@@ -1,0 +1,78 @@
+package model;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+/**
+ * DAO(Data Access Object):データベースへのアクセスを行うクラスを作り、そのクラスを通してデータベースへアクセスするデザインパターン
+ * 
+ */
+public class ShainDAO {
+
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("IH13A06_JV31_29_05_PU");
+
+    /**
+     * 全件検索
+     * @return 社員データ
+     */
+    public List<Shain> findAll() {
+        EntityManager em = emf.createEntityManager();
+        try {
+            return em.createQuery("SELECT s FROM Shain s", Shain.class).getResultList();
+            //絞り込み条件を付けたい場合
+            //return em.createQuery("SELECT s FROM Shain s", Shain.class).setParameter("pattern", "高%").getResultList();
+        } finally {
+            em.close();
+        }
+    }
+    
+    public void save(Shain shain) {
+        EntityManager em = emf.createEntityManager();
+        try {
+            em.getTransaction().begin();
+            em.persist(shain);
+            em.getTransaction().commit();
+        } finally {
+            em.close();
+        }
+    }
+
+    public Shain findById(int id) {
+        EntityManager em = emf.createEntityManager();
+        try {
+            return em.find(Shain.class, id);
+        } finally {
+            em.close();
+        }
+    }
+
+    public void update(Shain shain) {
+        EntityManager em = emf.createEntityManager();
+        try {
+            em.getTransaction().begin();
+            em.merge(shain);
+            em.getTransaction().commit();
+        } finally {
+            em.close();
+        }
+    }
+
+    public void delete(int id) {
+        EntityManager em = emf.createEntityManager();
+        try {
+            em.getTransaction().begin();
+            Shain s = em.find(Shain.class, id);
+            if (s != null) {
+                em.remove(s);
+            }
+            em.getTransaction().commit();
+        } finally {
+            em.close();
+        }
+    }
+
+    
+}

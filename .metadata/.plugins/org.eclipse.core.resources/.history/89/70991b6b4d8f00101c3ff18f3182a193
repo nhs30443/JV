@@ -1,0 +1,40 @@
+package model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "社員マスタ")
+public class 社員マスタ {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ユーザーID")
+    private int ユーザーID;
+
+    @Column(name = "氏名")
+    private String 氏名;
+
+    @Column(name = "性別")
+    private String 性別;
+
+    @Column(name = "備考")
+    private String 備考;
+
+    // getter / setter
+    public int getユーザーID() { return ユーザーID; }
+    public void setユーザーID(int ユーザーID) { this.ユーザーID = ユーザーID; }
+
+    public String get氏名() { return 氏名; }
+    public void set氏名(String 氏名) { this.氏名 = 氏名; }
+
+    public String get性別() { return 性別; }
+    public void set性別(String 性別) { this.性別 = 性別; }
+
+    public String get備考() { return 備考; }
+    public void set備考(String 備考) { this.備考 = 備考; }
+}

@@ -1,0 +1,108 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page import="java.util.*, model.Shain" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>社員一覧</title>
+<style>
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fafafa;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #f2f2f2;
+}
+
+.bikou-cell {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-data {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+}
+
+button {
+  padding: 6px 12px;
+}
+
+a.button {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 6px 12px;
+  background: #4285f4;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+</style>
+</head>
+<body>
+
+<h2>社員一覧</h2>
+<a href="maintenance?action=add" class="button">新規登録</a>
+
+<table>
+  <tr>
+    <th>ユーザID</th>
+    <th>氏名</th>
+    <th>性別</th>
+    <th>備考</th>
+    <th>操作</th>
+  </tr>
+
+  <%
+    List<Shain> list = (List<Shain>) request.getAttribute("shainList");
+    if (list != null && !list.isEmpty()) {
+        for (Shain s : list) {
+  %>
+  <tr>
+    <td><%= s.getId() %></td>
+    <td><%= s.getName() %></td>
+    <td><%= s.getGenderLabel() %></td>
+    <td class="bikou-cell"><%= s.getNote() != null ? s.getNote() : "" %></td>
+    <td>
+      <form action="maintenance" method="get">
+        <input type="hidden" name="action" value="edit">
+        <input type="hidden" name="id" value="<%= s.getId() %>">
+        <button type="submit">編集</button>
+      </form>
+      <form action="maintenance" method="get">
+        <input type="hidden" name="action" value="delete">
+        <input type="hidden" name="id" value="<%= s.getId() %>">
+        <button type="submit">削除</button>
+      </form>
+    </td>
+  </tr>
+  <% } } else { %>
+  <tr>
+    <td colspan="5" class="no-data">データがありません</td>
+  </tr>
+  <% } %>
+</table>
+
+</body>
+</html>

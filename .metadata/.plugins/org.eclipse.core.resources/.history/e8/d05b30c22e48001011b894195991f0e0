@@ -1,0 +1,22 @@
+public class Nageru{
+	public static void main(String[] args) {
+		try {
+			System.out.println("スロー");
+			System.out.println("メソッド呼び出し");
+			System.out.println(zikkou());
+			System.out.println("メソッド呼び出し終わり");
+			// わざとシステムエラーにしてみる
+			int a = 1/0;
+			System.out.println("aは" + a);
+		}catch (Exception e) {
+			System.out.println("原因不明エラー");
+		}
+	}
+	
+	private static String zikkou() {
+		String ret = "返す";
+		
+		return ret;
+	}
+	
+}

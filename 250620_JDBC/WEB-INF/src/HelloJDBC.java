@@ -1,0 +1,54 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/jdbc")
+public class HelloJDBC extends HttpServlet {
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		}catch (Exception e){
+			throw new IllegalStateException(
+				"JDBCドライバを読み込めませんでした。");
+			
+		}
+	
+		try(Connection conn = DriverManager.getConnection(
+				"jdbc:mysql://localhost:3306/urlmDB", "root", "root"
+				)){
+			
+			String sql = "SELECT accountId, role from t_account";
+			PreparedStatement pStmt = conn.prepareStatement(sql);
+			
+			ResultSet rs = pStmt.executeQuery();
+
+			resp.setContentType("text/html; charset=UTF-8");
+			PrintWriter out = resp.getWriter();
+
+			while (rs.next()) {
+				String id = rs.getString("accountId");
+				String role = rs.getString("role");
+				
+				out.println("ID: " + id);
+				out.println("role: " + role + "\n");
+			}
+			
+		}catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+}

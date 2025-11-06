@@ -1,0 +1,18 @@
+public class Nageru{
+	public static void main(String[] args) {
+		System.out.println("スロー");
+		System.out.println("メソッド呼び出し");
+		System.out.println(zikkou());
+		System.out.println("メソッド呼び出し終わり");
+		// わざとシステムエラーにしてみる
+		int a = 1/1;
+		System.out.println("aは" + a);
+	}
+	
+	private static String zikkou() {
+		String ret = "返す";
+		
+		return ret;
+	}
+	
+}

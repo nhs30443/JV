@@ -1,0 +1,87 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page import="model.Shain" %>
+<%
+  Shain shain = (Shain) request.getAttribute("shain");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>社員削除確認</title>
+<style>
+body {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e53935;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #f8f8f8;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c62828;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #4285f4;
+}
+
+</style>
+</head>
+<body>
+
+<h2>削除確認</h2>
+<p>以下の社員情報を削除してもよろしいですか？</p>
+
+<form action="maintenance" method="post">
+  <input type="hidden" name="action" value="delete">
+  <input type="hidden" name="id" value="<%= shain.getId() %>">
+
+  <table>
+    <tr><th>ユーザID</th><td><%= shain.getId() %></td></tr>
+    <tr><th>氏名</th><td><%= shain.getName() %></td></tr>
+    <tr><th>性別</th><td><%= shain.getGenderLabel() %></td></tr>
+    <tr><th>備考</th><td><%= shain.getNote() %></td></tr>
+  </table>
+
+  <button type="submit">削除</button>
+  <a href="maintenance?action=list">一覧へ戻る</a>
+</form>
+
+</body>
+</html>

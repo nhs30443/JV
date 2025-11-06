@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="&apos;META_INF&apos; を &apos;src&apos; に移動" description="&apos;META_INF&apos; を &apos;src&apos; に移動" destination="src" element1="META_INF" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1757298367627" updateReferences="true"/>&#x0A;<refactoring comment="リソース名 &apos;ShainJPA/src/META_INF&apos; を &apos;META-INF&apos; に変更します" description="リソース &apos;META_INF&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/META_INF" name="META-INF" stamp="1757299694971" updateReferences="true"/>
+</session>

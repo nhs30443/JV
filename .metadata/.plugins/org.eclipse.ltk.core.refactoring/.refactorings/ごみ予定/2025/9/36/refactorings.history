@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;250627_ShainJPA/WEB-INF/src/entity/社員マスタ&apos; を &apos;社員マスタ.java&apos; に変更します" description="リソース &apos;社員マスタ&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WEB-INF/src/entity/社員マスタ" name="社員マスタ.java" stamp="1757058279152" updateReferences="true"/>&#x0A;<refactoring comment="リソース名 &apos;250627_ShainJPA/WEB-INF/src/utils/DBManager.java&apos; を &apos;JPAUtils.java&apos; に変更します" description="リソース &apos;DBManager.java&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WEB-INF/src/utils/DBManager.java" name="JPAUtils.java" stamp="1757060735632" updateReferences="true"/>
+</session>

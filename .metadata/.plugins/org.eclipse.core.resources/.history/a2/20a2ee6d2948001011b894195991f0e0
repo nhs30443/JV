@@ -1,0 +1,12 @@
+public class Reigai {
+	public static void main(String[] args) {
+		System.out.println("例外処理");
+		
+		System.out.println(1 + 5);
+		int a = 1 + 5;
+		// "5"という文字列を数値に変換
+		a = 1 + Integer.parseInt("5");
+		System.out.println(a);
+		
+	}
+}

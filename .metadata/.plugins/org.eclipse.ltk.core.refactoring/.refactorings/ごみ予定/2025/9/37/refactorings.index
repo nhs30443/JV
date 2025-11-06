@@ -1,0 +1,10 @@
+1757292218486	'jakarta.persistence-api-3.1.0.jar' を 'lib' に移動
+1757292567291	'classes' を 'WEB-INF' に移動
+1757292587666	'src' を 'WEB-INF' に移動
+1757294262032	'persistence.xml' を ' META-INF' に移動
+1757294695228	'utils' を 'java' に移動
+1757294733803	' META-INF' を 'classes' に移動
+1757294778468	'entity' を 'WEB-INF' に移動
+1757294785834	'Servlet' を 'WEB-INF' に移動
+1757295067044	'entity' を 'java' に移動
+1757295070340	'Servlet' を 'java' に移動

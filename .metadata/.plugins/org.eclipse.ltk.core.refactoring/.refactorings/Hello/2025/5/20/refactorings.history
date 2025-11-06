@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;src&apos; を &apos;lib&apos; に移動" description="&apos;src&apos; を &apos;lib&apos; に移動" destination="WEB-INF/lib" element1="WEB-INF/src" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1747374152551" updateReferences="true"/>
+</session>

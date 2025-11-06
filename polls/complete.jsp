@@ -1,0 +1,43 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>アンケート送信完了</title>
+  <style>
+    body {
+      font-family: "Arial", "メイリオ", sans-serif;
+      background-color: #f9f9f9;
+      padding: 40px;
+      text-align: center;
+      color: #333;
+    }
+    .message-box {
+      background-color: #fff;
+      display: inline-block;
+      padding: 30px 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      font-size: 1.2em;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="message-box">
+    <h1>アンケート送信完了</h1>
+    <p>アンケートへのご協力ありがとうございました！</p>
+    <a href="polls.jsp">トップページへ戻る</a>
+  </div>
+</body>
+</html>

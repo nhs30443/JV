@@ -1,0 +1,78 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>社員新規登録</title>
+<style>
+body {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+h2 { text-align: center; margin-bottom: 20px; }
+form { display: flex; flex-direction: column; gap: 15px; }
+label { font-weight: bold; }
+input[type="text"], textarea {
+  width: 100%; padding: 8px;
+  border: 1px solid #ccc; border-radius: 4px;
+}
+.radio-group { display: flex; gap: 15px; }
+.error { color: red; font-size: 13px; }
+button {
+  padding: 8px 16px; background: #34a853; color: white;
+  border: none; border-radius: 4px; cursor: pointer;
+}
+button:hover { background: #0f9d58; }
+a { margin-left: 10px; text-decoration: none; color: #4285f4; }
+</style>
+</head>
+<body>
+
+<h2>社員新規登録</h2>
+
+<form action="maintenance" method="post">
+  <input type="hidden" name="action" value="add">
+
+  <label for="shimei">氏名：</label>
+  <input type="text" id="shimei" name="shimei"
+         value="<%= request.getAttribute("shimei") != null ? request.getAttribute("shimei") : "" %>">
+  <% if (request.getAttribute("shimeiError") != null) { %>
+    <div class="error"><%= request.getAttribute("shimeiError") %></div>
+  <% } %>
+
+  <label>性別：</label>
+  <div class="radio-group">
+    <%
+      String selectedGender = (String) request.getAttribute("seibetsu");
+    %>
+    <label>
+      <input type="radio" name="seibetsu" value="M"
+        <%= "M".equals(selectedGender) ? "checked" : "" %>>男性
+    </label>
+    <label>
+      <input type="radio" name="seibetsu" value="F"
+        <%= "F".equals(selectedGender) ? "checked" : "" %>>女性
+    </label>
+    <label>
+      <input type="radio" name="seibetsu" value="O"
+        <%= "O".equals(selectedGender) ? "checked" : "" %>>その他
+    </label>
+  </div>
+  <% if (request.getAttribute("seibetsuError") != null) { %>
+    <div class="error"><%= request.getAttribute("seibetsuError") %></div>
+  <% } %>
+
+  <label for="bikou">備考：</label>
+  <textarea id="bikou" name="bikou" rows="4"><%= request.getAttribute("bikou") != null ? request.getAttribute("bikou") : "" %></textarea>
+  <% if (request.getAttribute("bikouError") != null) { %>
+    <div class="error"><%= request.getAttribute("bikouError") %></div>
+  <% } %>
+
+  <button type="submit">登録</button>
+  <a href="maintenance?action=list">一覧に戻る</a>
+</form>
+
+</body>
+</html>

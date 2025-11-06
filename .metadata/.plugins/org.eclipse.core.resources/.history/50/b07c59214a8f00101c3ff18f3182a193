@@ -1,0 +1,158 @@
+package servlet;
+
+import java.io.IOException;
+import java.util.List;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import model.Shain;
+import model.ShainDAO;
+
+public class ShainMaintenance extends HttpServlet {
+
+    private ShainDAO shainDAO = new ShainDAO();
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        String action = request.getParameter("action");
+
+        switch (action==null?"list":action) {
+	        case "add":
+	            RequestDispatcher dispatcherAdd = request.getRequestDispatcher("/WEB-INF/shain_touroku.jsp");
+	            dispatcherAdd.forward(request, response);
+	            break;
+	            
+	        case "edit":
+	            int editId = Integer.parseInt(request.getParameter("id"));
+	            Shain editShain = shainDAO.findById(editId);
+	            request.setAttribute("shain", editShain);
+	            RequestDispatcher dispatcherEdit = request.getRequestDispatcher("/WEB-INF/shain_update.jsp");
+	            dispatcherEdit.forward(request, response);
+	            break;
+	
+	
+	        case "delete":
+	            int deleteId = Integer.parseInt(request.getParameter("id"));
+	            Shain deleteShain = shainDAO.findById(deleteId);
+	            request.setAttribute("shain", deleteShain);
+	            RequestDispatcher dispatcherDelete = request.getRequestDispatcher("/WEB-INF/shain_delete.jsp");
+	            dispatcherDelete.forward(request, response);
+	            break;
+	
+	            default:
+	            	//一覧表示
+	                List<Shain> listShain = shainDAO.findAll();
+	                request.setAttribute("shainList", listShain);
+	                RequestDispatcher dispatcherList = request.getRequestDispatcher("/WEB-INF/shain_list.jsp");
+	                dispatcherList.forward(request, response);
+	                break;
+        }
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        request.setCharacterEncoding("UTF-8");
+
+        String action = request.getParameter("action");
+
+        switch (action) {
+	        case "add":
+	            String name = request.getParameter("shimei");
+	            String gender = request.getParameter("seibetsu");
+	            String note = request.getParameter("bikou");
+	
+	            boolean hasError = false;
+	
+	            if (name == null || name.trim().isEmpty()) {
+	                request.setAttribute("shimeiError", "氏名を入力してください");
+	                hasError = true;
+	            }
+	            if (gender == null || gender.trim().isEmpty()) {
+	                request.setAttribute("seibetsuError", "性別を選択してください");
+	                hasError = true;
+	            }
+	
+	            // 入力値保持
+	            request.setAttribute("shimei", name);
+	            request.setAttribute("seibetsu", gender);
+	            request.setAttribute("bikou", note);
+	
+	            if (hasError) {
+	                RequestDispatcher dispatcherAdd = request.getRequestDispatcher("/WEB-INF/shain_touroku.jsp");
+	                dispatcherAdd.forward(request, response);
+	                return; 
+	            }
+	
+	            Shain newShain = new Shain();
+	            newShain.setName(name);
+	            newShain.setGender(gender);
+	            newShain.setNote(note);
+	
+	            shainDAO.save(newShain);
+	
+	            request.setAttribute("shain", newShain);
+	            RequestDispatcher dispatcherResult = request.getRequestDispatcher("/WEB-INF/shain_result.jsp");
+	            dispatcherResult.forward(request, response);
+	            break;
+	
+	
+	
+	        case "update":
+	            int updateId = Integer.parseInt(request.getParameter("id"));
+	            String updateName = request.getParameter("shimei");
+	            String updateGender = request.getParameter("seibetsu");
+	            String updateNote = request.getParameter("bikou");
+	
+	            boolean updateError = false;
+	
+	            if (updateName == null || updateName.trim().isEmpty()) {
+	                request.setAttribute("shimeiError", "氏名を入力してください");
+	                updateError = true;
+	            }
+	            if (updateGender == null || updateGender.trim().isEmpty()) {
+	                request.setAttribute("seibetsuError", "性別を選択してください");
+	                updateError = true;
+	            }
+	
+	            // 入力値保持
+	            request.setAttribute("shimei", updateName);
+	            request.setAttribute("seibetsu", updateGender);
+	            request.setAttribute("bikou", updateNote);
+	
+	            if (updateError) {
+	                Shain editShain = shainDAO.findById(updateId);
+	                request.setAttribute("shain", editShain);
+	                RequestDispatcher dispatcherEdit = request.getRequestDispatcher("/WEB-INF/shain_update.jsp");
+	                dispatcherEdit.forward(request, response);
+	                return; 
+	            }
+	
+	            Shain updateShain = shainDAO.findById(updateId);
+	            updateShain.setName(updateName);
+	            updateShain.setGender(updateGender);
+	            updateShain.setNote(updateNote);
+	
+	            shainDAO.update(updateShain);
+	            response.sendRedirect(request.getContextPath() + "/maintenance?action=list");
+	            break;
+	            
+	        case "delete":
+	            int deleteId = Integer.parseInt(request.getParameter("id"));
+	            shainDAO.delete(deleteId);
+	
+	            // 削除したら一覧へリダイレクト
+	            response.sendRedirect(request.getContextPath() + "/maintenance?action=list");
+	            break;
+	
+
+        }
+    }
+}

@@ -1,0 +1,12 @@
+public class Nageru{
+	public static void main(String[] args) {
+		System.out.println("スロー");
+	}
+	
+	private String zikkou() {
+		String ret = "返す";
+		
+		return ret;
+	}
+	
+}
