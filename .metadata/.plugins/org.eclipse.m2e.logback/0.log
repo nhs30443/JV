@@ -2377,3 +2377,14 @@ Caused by: java.io.FileNotFoundException: C:\pleiades\2024-12\workspace\IH13A06_
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
 	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
 	... 27 common frames omitted
+2025-11-06 12:36:31,456 [Worker-4: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_05:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_29_05\pom.xml.
+2025-11-06 12:36:32,201 [Worker-4: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-06 12:36:32,204 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-06 12:36:32,210 [Worker-4: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-06 12:36:32,212 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_29_05\src\test\resources
+2025-11-06 12:36:32,345 [Worker-4: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_29_06\pom.xml.
+2025-11-06 12:36:32,446 [Worker-4: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-06 12:36:32,447 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-06 12:36:32,462 [Worker-4: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-06 12:36:32,463 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_29_06\src\test\resources
+2025-11-06 12:36:34,629 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
