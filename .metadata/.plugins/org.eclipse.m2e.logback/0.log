@@ -2967,3 +2967,15 @@ Caused by: java.io.FileNotFoundException: C:\pleiades\2024-12\workspace\IH13A06_
 2025-11-27 09:30:12,902 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_29_06\src\test\resources
 2025-11-27 09:30:12,902 [Worker-10: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_29_06
 2025-11-27 09:30:12,902 [Worker-10: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_29_06
+2025-11-27 09:33:58,842 [Worker-6: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-11-27 09:33:59,721 [Worker-6: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-27 09:33:59,722 [Worker-6: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-27 09:33:59,730 [Worker-6: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-27 09:33:59,730 [Worker-6: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-11-27 09:36:42,156 [Worker-8: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-11-27 09:36:42,435 [Worker-10: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-27 09:36:42,436 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-27 09:36:42,439 [Worker-10: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-27 09:36:42,439 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-11-27 09:36:42,440 [Worker-10: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-11-27 09:36:42,440 [Worker-10: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
