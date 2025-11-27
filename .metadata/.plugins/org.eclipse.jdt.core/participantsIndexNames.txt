@@ -1,6 +1,8 @@
 INDEX VERSION 1.134
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3880776316.index
 \ごみ予定\work
+C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1762500589.index
+\IH13A06_JV31_07\src\main\java
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2300600933.index
 \IH13A06_JV31_29_06\src\main\java
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\558323039.index
