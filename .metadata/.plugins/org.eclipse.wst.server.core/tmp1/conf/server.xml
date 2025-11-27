@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="IH13A06_JV31_29_06" path="/IH13A06_JV31_29_05" reloadable="false" source="org.eclipse.jst.jee.server:IH13A06_JV31_29_06"/><Context docBase="IH13A06_JV31_29_05" path="/IH13A06_JV31_29_05" reloadable="false" source="org.eclipse.jst.jee.server:IH13A06_JV31_29_05"/></Host>
+      <Context docBase="C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\IH13A06_JV31_29_05" path="/IH13A06_JV31_29_05" reloadable="false" source="org.eclipse.jst.jee.server:IH13A06_JV31_29_05"/><Context docBase="C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\IH13A06_JV31_29_06" path="/IH13A06_JV31_29_06" reloadable="false" source="org.eclipse.jst.jee.server:IH13A06_JV31_29_06"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -11,6 +11,6 @@ public class RootRedirectServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
     	//【/shain_touroku】へリダイレクト
-        response.sendRedirect(request.getContextPath() + "/shain_touroku");
+        response.sendRedirect(request.getContextPath() + "/app/shain_touroku");
     }
 }

@@ -6,58 +6,14 @@
 
     <!-- ShainMaintenanceサーブレット【servlet-nameをmappingと合わせる】 -->
     <servlet>
-        <servlet-name>ShainTouroku</servlet-name>
-        <servlet-class>servlet.ShainTouroku</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ShainTouroku</servlet-name>
-        <url-pattern>/shain_touroku</url-pattern>
-    </servlet-mapping>
-    
-    
-    <servlet>
-        <servlet-name>ShainHensyuu</servlet-name>
-        <servlet-class>servlet.ShainHensyuu</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ShainHensyuu</servlet-name>
-        <url-pattern>/shain_hensyuu</url-pattern>
-    </servlet-mapping>
-    
-    
-    <servlet>
-        <servlet-name>ShainItirann</servlet-name>
-        <servlet-class>servlet.ShainItirann</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ShainItirann</servlet-name>
-        <url-pattern>/shain_itirann</url-pattern>
-    </servlet-mapping>
-    
-    
-    <servlet>
-        <servlet-name>ShainSakujyo</servlet-name>
-        <servlet-class>servlet.ShainSakujyo</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ShainSakujyo</servlet-name>
-        <url-pattern>/shain_sakujyo</url-pattern>
-    </servlet-mapping>
-    
-    
-    <servlet>
-        <servlet-name>Complete</servlet-name>
-        <servlet-class>servlet.Complete</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>Complete</servlet-name>
-        <url-pattern>/complete</url-pattern>
-    </servlet-mapping>
+	    <servlet-name>FrontController</servlet-name>
+	    <servlet-class>controller.FrontController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>FrontController</servlet-name>
+	    <url-pattern>/app/*</url-pattern>
+	</servlet-mapping>
 
     <!--
      【http://localhost:8080/IH13AXX_JV31_29_05/】でアクセスされた際に

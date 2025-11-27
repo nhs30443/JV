@@ -17,7 +17,7 @@
 		<item key="DIALOG_X_ORIGIN" value="141"/>
 		<item key="DIALOG_Y_ORIGIN" value="122"/>
 		<item key="DIALOG_WIDTH" value="872"/>
-		<item key="DIALOG_HEIGHT" value="763"/>
+		<item key="DIALOG_HEIGHT" value="859"/>
 		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
 	</section>
 	<section name="InstallationDialogSettings">
