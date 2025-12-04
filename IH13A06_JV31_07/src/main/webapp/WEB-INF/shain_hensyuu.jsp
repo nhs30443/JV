@@ -1,4 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -23,13 +25,11 @@
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     width: 450px;
   }
-
   h1 {
     color: #333;
     margin-bottom: 20px;
     text-align: center;
   }
-
   label {
     display: inline-block;
     width: 70px;
@@ -37,7 +37,6 @@
     vertical-align: top;
     margin-bottom: 10px;
   }
-
   input[type="text"],
   textarea {
     width: calc(100% - 80px);
@@ -46,28 +45,21 @@
     border-radius: 4px;
     font-size: 14px;
   }
-
-  textarea {
-    resize: vertical;
-  }
-
+  textarea { resize: vertical; }
   input[type="radio"] {
     margin-left: 10px;
     margin-right: 4px;
   }
-
   .btn-group {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
   .btn-left {
     display: flex;
     gap: 8px;
   }
-
   input[type="submit"],
   input[type="reset"],
   .btn-list {
@@ -78,64 +70,47 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 15px;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
     text-decoration: none;
     display: inline-block;
   }
-
-  input[type="reset"] {
-    background-color: #f44336;
-  }
-
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-
-  input[type="reset"]:hover {
-    background-color: #d32f2f;
-  }
-
-  .btn-list:hover {
-    background-color: #388e3c;
-  }
+  input[type="reset"] { background-color: #f44336; }
+  input[type="submit"]:hover { background-color: #45a049; }
+  input[type="reset"]:hover { background-color: #d32f2f; }
+  .btn-list:hover { background-color: #388e3c; }
 </style>
 </head>
+
 <body>
   <div class="form-container">
     <h1>社員編集フォーム</h1>
 
-    <% 
-        Object idObj = request.getAttribute("ユーザーID");
-        String id = idObj != null ? String.valueOf(idObj) : "";
-    %>
-
     <form action="shain_hensyuu" method="post">
-      <input type="hidden" name="ユーザーID" value="<%= id %>">
+      <!-- 隠しID -->
+      <input type="hidden" name="ユーザーID" value="${ユーザーID}">
 
       <label for="name">氏名：</label>
-      <input type="text" id="name" name="氏名" required 
-             value="<%= request.getAttribute("氏名") != null ? String.valueOf(request.getAttribute("氏名")) : "" %>">
+      <input type="text" id="name" name="氏名" required value="${氏名}">
       <br><br>
 
       <label>性別：</label>
+
       <input type="radio" id="male" name="性別" value="M"
-        <%= "M".equals(String.valueOf(request.getAttribute("性別"))) ? "checked" : "" %>>
+        <c:if test="${性別 == 'M'}">checked</c:if>>
       <label for="male">男性</label>
 
       <input type="radio" id="female" name="性別" value="F"
-        <%= "F".equals(String.valueOf(request.getAttribute("性別"))) ? "checked" : "" %>>
+        <c:if test="${性別 == 'F'}">checked</c:if>>
       <label for="female">女性</label>
       <br><br>
 
       <label for="bikou">備考：</label><br>
-      <textarea id="bikou" name="備考" rows="5" cols="40">
-<%= request.getAttribute("備考") != null ? String.valueOf(request.getAttribute("備考")) : "" %></textarea>
+      <textarea id="bikou" name="備考" rows="5" cols="40">${備考}</textarea>
       <br><br>
 
-      <% String error = (String) request.getAttribute("errorMessage"); %>
-      <% if (error != null) { %>
-        <div style="color:red; font-size: 14px;"><%= error %></div><br>
-      <% } %>
+      <c:if test="${not empty errorMessage}">
+        <div style="color:red; font-size: 14px;">${errorMessage}</div><br>
+      </c:if>
 
       <div class="btn-group">
         <div class="btn-left">

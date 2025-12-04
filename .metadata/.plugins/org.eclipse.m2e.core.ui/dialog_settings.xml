@@ -19,6 +19,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\pleiades\2024-12\workspace\IH13A06_JV31_07"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

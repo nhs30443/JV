@@ -2979,3 +2979,781 @@ Caused by: java.io.FileNotFoundException: C:\pleiades\2024-12\workspace\IH13A06_
 2025-11-27 09:36:42,439 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
 2025-11-27 09:36:42,440 [Worker-10: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
 2025-11-27 09:36:42,440 [Worker-10: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 09:35:37,294 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-12-04 09:48:11,547 [Worker-17: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:48:11,549 [Worker-17: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:48:11,556 [Worker-17: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:48:11,556 [Worker-17: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:48:31,988 [Worker-16: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:48:31,990 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 09:48:31,991 [Worker-16: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:48:31,992 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:48:36,960 [Worker-18: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 09:48:37,252 [Worker-17: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:48:37,253 [Worker-17: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:48:37,256 [Worker-17: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:48:37,257 [Worker-17: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:48:37,257 [Worker-17: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 09:48:37,257 [Worker-17: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 09:50:43,537 [Worker-19: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:50:43,538 [Worker-19: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 09:50:43,539 [Worker-19: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:50:43,540 [Worker-19: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:51:00,224 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:51:00,225 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:51:00,228 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:51:00,228 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:51:10,245 [Worker-19: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 09:51:10,254 [Worker-19: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_29_05
+2025-12-04 09:51:10,618 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:51:10,619 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:51:10,622 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:51:10,622 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:51:10,623 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 09:51:10,623 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 09:51:10,669 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:51:10,670 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:51:10,673 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:51:10,673 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_29_05\src\test\resources
+2025-12-04 09:51:10,674 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_29_05
+2025-12-04 09:51:10,674 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_29_05
+2025-12-04 09:53:17,191 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:53:17,192 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:53:17,195 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:53:17,195 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:53:21,834 [Worker-15: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 09:53:21,843 [Worker-15: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_29_05
+2025-12-04 09:53:22,120 [Worker-24: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:53:22,121 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:53:22,123 [Worker-24: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:53:22,124 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:53:22,124 [Worker-24: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 09:53:22,124 [Worker-24: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 09:53:22,162 [Worker-24: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:53:22,163 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:53:22,165 [Worker-24: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:53:22,165 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_29_05\src\test\resources
+2025-12-04 09:53:22,165 [Worker-24: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_29_05
+2025-12-04 09:53:22,165 [Worker-24: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_29_05
+2025-12-04 09:54:16,885 [Worker-20: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:54:16,886 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:54:16,888 [Worker-20: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:54:16,888 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:54:19,728 [Worker-0: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 09:54:19,736 [Worker-0: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_29_05
+2025-12-04 09:54:20,105 [Worker-23: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:54:20,106 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:54:20,109 [Worker-23: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:54:20,109 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:54:20,109 [Worker-23: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 09:54:20,109 [Worker-23: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 09:54:20,152 [Worker-23: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:54:20,152 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 09:54:20,154 [Worker-23: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:54:20,155 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_29_05\src\test\resources
+2025-12-04 09:54:20,155 [Worker-23: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_29_05
+2025-12-04 09:54:20,155 [Worker-23: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_29_05
+2025-12-04 09:57:43,873 [Worker-0: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 09:57:44,350 [Worker-0: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/ee4j/jstl/jakarta.servlet.jsp.jstl/3.0.0/jakarta.servlet.jsp.jstl-3.0.0.pom
+2025-12-04 09:57:44,352 [Worker-0: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.ee4j.jstl:jakarta.servlet.jsp.jstl:jar:3.0.0 is missing, no dependency information available
+2025-12-04 09:57:44,532 [Worker-0: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/ee4j/jstl/jakarta.servlet.jsp.jstl/3.0.0/jakarta.servlet.jsp.jstl-3.0.0.jar
+2025-12-04 09:57:44,628 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:57:44,629 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 09:57:44,630 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:57:44,631 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:57:44,631 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 09:57:44,631 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 09:57:46,119 [Worker-19: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/ee4j/jstl/jakarta.servlet.jsp.jstl/3.0.0/jakarta.servlet.jsp.jstl-3.0.0-sources.jar
+2025-12-04 09:57:46,121 [Worker-19: ソースおよび Javadoc のダウンロード] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.eclipse.ee4j.jstl:jakarta.servlet.jsp.jstl:3.0.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.eclipse.ee4j.jstl:jakarta.servlet.jsp.jstl:jar:sources:3.0.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-12-04 09:59:25,037 [Worker-21: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 09:59:25,074 [Worker-21: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.ee4j.jstl:jakarta.servlet.jsp.jstl:jar:3.0.0 is missing, no dependency information available
+2025-12-04 09:59:25,128 [Worker-21: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:59:25,129 [Worker-21: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 09:59:25,130 [Worker-21: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 09:59:25,130 [Worker-21: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 09:59:25,131 [Worker-21: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 09:59:25,131 [Worker-21: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 09:59:26,744 [Worker-22: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/ee4j/jstl/jakarta.servlet.jsp.jstl/3.0.0/jakarta.servlet.jsp.jstl-3.0.0-javadoc.jar
+2025-12-04 09:59:26,746 [Worker-22: ソースおよび Javadoc のダウンロード] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.eclipse.ee4j.jstl:jakarta.servlet.jsp.jstl:3.0.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.eclipse.ee4j.jstl:jakarta.servlet.jsp.jstl:jar:javadoc:3.0.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-12-04 10:00:42,834 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:00:42,835 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:00:42,836 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:00:42,836 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:01:23,676 [Worker-18: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:01:23,712 [Worker-18: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.ee4j.jstl:jakarta.servlet.jsp.jstl:jar:3.0.0 is missing, no dependency information available
+2025-12-04 10:01:23,766 [Worker-18: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:01:23,767 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:01:23,768 [Worker-18: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:01:23,768 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:01:23,769 [Worker-18: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:01:23,769 [Worker-18: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:02:10,205 [Worker-0: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:02:10,458 [Worker-0: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.pom
+2025-12-04 10:02:10,466 [Worker-0: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.pom
+2025-12-04 10:02:10,592 [Worker-0: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar
+2025-12-04 10:02:10,829 [Worker-0: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar
+2025-12-04 10:02:10,878 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:02:10,879 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:02:10,880 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:02:10,880 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:02:10,881 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:02:10,881 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:02:12,062 [Worker-21: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2-sources.jar
+2025-12-04 10:02:12,472 [Worker-21: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2-sources.jar
+2025-12-04 10:02:12,475 [Worker-21: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:jstl:1.2
+2025-12-04 10:02:51,358 [Worker-18: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:02:51,366 [Worker-18: すべてのプロジェクトをクリーン] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_29_05
+2025-12-04 10:02:51,589 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:02:51,590 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:02:51,592 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:02:51,592 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:02:51,593 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:02:51,593 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:02:51,629 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:02:51,629 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:02:51,631 [Worker-15: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:02:51,632 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_29_05\src\test\resources
+2025-12-04 10:02:51,632 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_29_05
+2025-12-04 10:02:51,632 [Worker-15: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_29_05
+2025-12-04 10:04:20,207 [Worker-22: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:04:20,323 [Worker-22: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:04:20,324 [Worker-22: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:04:20,326 [Worker-22: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:04:20,327 [Worker-22: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:04:20,327 [Worker-22: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:04:20,327 [Worker-22: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:08:58,354 [Worker-0: ビルド] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-04 10:09:25,710 [Worker-15: 選択したプロジェクトのクリーニング] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.clean(MavenBuilder.java:204)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1082)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:668)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:154)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:360)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:159)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 28 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 30 common frames omitted
+2025-12-04 10:09:26,139 [Worker-19: ビルド] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-04 10:09:45,925 [Worker-16: 選択したプロジェクトのクリーニング] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.clean(MavenBuilder.java:204)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1082)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:668)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:154)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:360)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:159)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 28 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 30 common frames omitted
+2025-12-04 10:09:46,035 [Worker-20: ビルド] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n\t\t</... @56:5) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-04 10:10:13,236 [Worker-16: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7)  @ line 56, column 7
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7)  @ line 56, column 7
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-12-04 10:10:13,834 [Worker-19: ビルド] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-04 10:10:20,215 [Worker-22: 選択したプロジェクトのクリーニング] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.clean(MavenBuilder.java:204)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1082)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:668)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:154)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:360)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:159)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 28 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 30 common frames omitted
+2025-12-04 10:10:20,329 [Worker-22: ビルド] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</dependency>sion>\n    </... @56:7) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2025-12-04 10:10:46,059 [Worker-24: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:10:46,162 [Worker-24: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:10:46,163 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:10:46,164 [Worker-24: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:10:46,164 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:10:46,164 [Worker-24: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:10:46,165 [Worker-24: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:10:51,244 [Worker-23: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:10:51,684 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:10:51,684 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:10:51,688 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:10:51,688 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:10:51,688 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:10:51,688 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:11:11,194 [Worker-16: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:11:11,195 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:11:11,196 [Worker-16: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:11:11,196 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:12:16,802 [Worker-0: ビルド] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - ファイルが見つかりません: C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+org.eclipse.core.internal.resources.ResourceException: ファイルが見つかりません: C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:886)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:589)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: ファイルが見つかりません: C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	... 26 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml (指定されたファイルが見つかりません。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 27 common frames omitted
+2025-12-04 10:12:39,059 [Worker-1: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml: C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml (指定されたファイルが見つかりません。) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml: C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml (指定されたファイルが見つかりません。) @ 
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-12-04 10:12:44,163 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-04 10:17:42,500 [Worker-8: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:17:43,398 [Worker-8: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IH13A06_JV31_29_06/src/main/java
+2025-12-04 10:17:43,399 [Worker-8: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IH13A06_JV31_29_06/src/main/resources
+2025-12-04 10:17:43,400 [Worker-8: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IH13A06_JV31_29_06/src/test/java
+2025-12-04 10:17:43,400 [Worker-8: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IH13A06_JV31_29_06/src/test/resources
+2025-12-04 10:17:44,381 [Worker-8: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-12-04 10:17:44,974 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:17:44,980 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:17:44,985 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:17:44,986 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:19:06,622 [Worker-5: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:19:07,509 [Worker-5: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IH13A06_JV31_29_06/src/main/java
+2025-12-04 10:19:07,510 [Worker-5: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IH13A06_JV31_29_06/src/main/resources
+2025-12-04 10:19:07,511 [Worker-5: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IH13A06_JV31_29_06/src/test/java
+2025-12-04 10:19:07,511 [Worker-5: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IH13A06_JV31_29_06/src/test/resources
+2025-12-04 10:19:08,350 [Worker-5: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-12-04 10:19:08,930 [Worker-7: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:19:08,936 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:19:08,941 [Worker-7: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:19:08,942 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:19:52,593 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-04 10:20:27,710 [Worker-3: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:20:28,090 [Worker-3: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:20:28,090 [Worker-3: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:20:28,090 [Worker-3: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:20:28,090 [Worker-3: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:21:47,069 [Worker-8: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:21:47,873 [Worker-4: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:21:47,876 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:21:47,882 [Worker-4: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:21:47,883 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:21:47,883 [Worker-4: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:21:47,884 [Worker-4: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:21:48,611 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-04 10:23:56,569 [Worker-2: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_07:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:23:57,067 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:23:57,069 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:23:57,071 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:23:57,072 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:23:57,072 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:23:57,072 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:24:01,865 [Worker-2: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_07:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:24:02,293 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:24:02,294 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:24:02,297 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:24:02,297 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:24:02,297 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:24:02,297 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:24:07,631 [Worker-7: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_07:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:24:07,958 [Worker-7: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:24:07,960 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:24:07,962 [Worker-7: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:24:07,963 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:24:07,963 [Worker-7: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:24:07,963 [Worker-7: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:25:52,115 [Worker-6: Maven 依存関係の更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_05:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_29_05\pom.xml.
+2025-12-04 10:26:02,420 [Worker-4: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:26:02,746 [Worker-4: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IH13A06_JV31_07/src/main/java
+2025-12-04 10:26:02,747 [Worker-4: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IH13A06_JV31_07/src/main/resources
+2025-12-04 10:26:02,748 [Worker-4: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /IH13A06_JV31_07/src/test/java
+2025-12-04 10:26:02,748 [Worker-4: Maven プロジェクトのインポート中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /IH13A06_JV31_07/src/test/resources
+2025-12-04 10:26:03,354 [Worker-4: Maven プロジェクトのインポート中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2025-12-04 10:26:04,256 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:26:04,262 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:26:04,267 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:26:04,268 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:26:06,592 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-04 10:27:44,495 [Worker-0: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:27:44,990 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:27:44,992 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:27:44,994 [Worker-0: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:27:44,995 [Worker-0: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:27:44,995 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:27:44,996 [Worker-0: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:27:46,464 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:27:46,464 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:27:46,468 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:27:46,469 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:27:53,606 [Worker-0: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:27:53,823 [Worker-7: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:27:53,824 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:27:53,826 [Worker-7: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:27:53,827 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:27:53,827 [Worker-7: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:27:53,827 [Worker-7: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:29:38,084 [Worker-1: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:29:38,085 [Worker-1: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:29:38,086 [Worker-1: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:29:38,087 [Worker-1: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:29:40,999 [Worker-5: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:29:41,196 [Worker-6: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:29:41,197 [Worker-6: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:29:41,199 [Worker-6: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:29:41,200 [Worker-6: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:29:41,200 [Worker-6: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:29:41,200 [Worker-6: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:30:55,215 [Worker-1: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:IH13A06_JV31_29_06:1.0-SNAPSHOT @ C:\pleiades\2024-12\workspace\IH13A06_JV31_07\pom.xml.
+2025-12-04 10:30:55,711 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/2.0.0/jakarta.servlet.jsp.jstl-2.0.0.pom
+2025-12-04 10:30:55,720 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/2.0.0/jakarta.servlet.jsp.jstl-2.0.0.pom
+2025-12-04 10:30:55,804 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0.pom
+2025-12-04 10:30:55,807 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0.pom
+2025-12-04 10:30:55,917 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0/jakarta.el-api-4.0.0.pom
+2025-12-04 10:30:55,921 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0/jakarta.el-api-4.0.0.pom
+2025-12-04 10:30:56,003 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.pom
+2025-12-04 10:30:56,006 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.pom
+2025-12-04 10:30:56,074 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/3.0.0/jakarta.xml.bind-api-parent-3.0.0.pom
+2025-12-04 10:30:56,077 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/3.0.0/jakarta.xml.bind-api-parent-3.0.0.pom
+2025-12-04 10:30:56,177 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.pom
+2025-12-04 10:30:56,181 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.pom
+2025-12-04 10:30:56,270 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/all/2.0.0/all-2.0.0.pom
+2025-12-04 10:30:56,276 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/all/2.0.0/all-2.0.0.pom
+2025-12-04 10:30:56,439 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/2.0.0/jakarta.servlet.jsp.jstl-2.0.0.jar
+2025-12-04 10:30:58,592 [Worker-1: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/2.0.0/jakarta.servlet.jsp.jstl-2.0.0.jar
+2025-12-04 10:30:58,679 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0.jar
+2025-12-04 10:30:58,713 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0.jar
+2025-12-04 10:30:58,797 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0/jakarta.el-api-4.0.0.jar
+2025-12-04 10:30:58,825 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.jar
+2025-12-04 10:30:58,880 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.jar
+2025-12-04 10:30:58,937 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0/jakarta.el-api-4.0.0.jar
+2025-12-04 10:30:58,946 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.jar
+2025-12-04 10:30:58,974 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.jar
+2025-12-04 10:30:59,725 [Worker-1: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:30:59,727 [Worker-1: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:30:59,730 [Worker-1: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:30:59,730 [Worker-1: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:30:59,730 [Worker-1: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:30:59,730 [Worker-1: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:31:00,086 [Worker-2: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:31:00,876 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/2.0.0/jakarta.servlet.jsp.jstl-2.0.0-sources.jar
+2025-12-04 10:31:01,330 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/web/jakarta.servlet.jsp.jstl/2.0.0/jakarta.servlet.jsp.jstl-2.0.0-sources.jar
+2025-12-04 10:31:01,333 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0
+2025-12-04 10:31:01,450 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:31:01,452 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:31:01,463 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:31:01,464 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:31:01,464 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:31:01,464 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:31:01,571 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0-sources.jar
+2025-12-04 10:31:01,596 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0-sources.jar
+2025-12-04 10:31:01,599 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0
+2025-12-04 10:31:01,785 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0/jakarta.el-api-4.0.0-sources.jar
+2025-12-04 10:31:01,855 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/4.0.0/jakarta.el-api-4.0.0-sources.jar
+2025-12-04 10:31:01,858 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.el:jakarta.el-api:4.0.0
+2025-12-04 10:31:02,037 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0-sources.jar
+2025-12-04 10:31:02,192 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0-sources.jar
+2025-12-04 10:31:02,194 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.xml.bind:jakarta.xml.bind-api:3.0.0
+2025-12-04 10:31:02,346 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0-sources.jar
+2025-12-04 10:31:02,369 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0-sources.jar
+2025-12-04 10:31:02,371 [Worker-8: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.activation:jakarta.activation:2.0.0
+2025-12-04 10:31:05,543 [Worker-10: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:31:05,545 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:31:05,546 [Worker-10: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:31:05,547 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:31:42,091 [Worker-2: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:31:42,440 [Worker-3: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:31:42,441 [Worker-3: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:31:42,444 [Worker-3: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:31:42,444 [Worker-3: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:31:42,445 [Worker-3: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:31:42,445 [Worker-3: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:33:31,944 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:33:31,946 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:33:31,947 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:33:31,947 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:33:34,543 [Worker-1: 選択したプロジェクトのクリーニング] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for IH13A06_JV31_07
+2025-12-04 10:33:34,811 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:33:34,812 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-04 10:33:34,815 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:33:34,815 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:33:34,815 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of IH13A06_JV31_07
+2025-12-04 10:33:34,816 [Worker-2: ビルド] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for IH13A06_JV31_07
+2025-12-04 10:34:11,850 [Worker-1: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:34:11,851 [Worker-1: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:34:11,852 [Worker-1: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:34:11,852 [Worker-1: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
+2025-12-04 10:34:22,990 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:34:22,991 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-04 10:34:22,992 [Worker-2: ビルド] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-04 10:34:22,993 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\pleiades\2024-12\workspace\IH13A06_JV31_07\src\test\resources
