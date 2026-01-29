@@ -24,6 +24,10 @@
     .search-form input, .search-form select { padding:4px 6px; border:1px solid #ccc; border-radius:4px; }
     .search-form button { background-color:#4caf50; color:white; padding:6px 12px; border:none; border-radius:4px; cursor:pointer; font-weight:bold; }
     .search-form button:hover { background-color:#45a049; }
+
+    /* 帳票出力ボタン用 */
+    .btn-pdf { display:inline-block; margin-top:20px; background-color:#ff9800; color:white; padding:8px 16px; border:none; border-radius:4px; font-weight:bold; cursor:pointer; text-decoration:none; }
+    .btn-pdf:hover { background-color:#fb8c00; }
   </style>
 </head>
 <body>
@@ -121,6 +125,16 @@
       </table>
     </c:otherwise>
   </c:choose>
+
+  <!-- 帳票出力ボタン -->
+  <form action="shain_pdf" method="get" style="margin-top:20px;">
+    <input type="hidden" name="name" value="${param.name}">
+    <input type="hidden" name="gender" value="${param.gender}">
+    <input type="hidden" name="note" value="${param.note}">
+    <input type="hidden" name="sort" value="${param.sort}">
+    <input type="hidden" name="order" value="${param.order}">
+    <button type="submit" class="btn-pdf">帳票出力（PDF）</button>
+  </form>
 
   <a href="shain_touroku" class="btn-back">社員登録へ戻る</a>
 </div>

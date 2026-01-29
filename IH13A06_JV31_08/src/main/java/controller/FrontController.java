@@ -19,6 +19,7 @@ public class FrontController extends HttpServlet {
         // リクエストURLごとの処理を登録
         routes.put("/app/shain_touroku", new ShainTourokuController());
         routes.put("/app/shain_itirann", new ShainItirannController());
+        routes.put("/app/shain_pdf", new ShainPdfController());
         routes.put("/app/shain_hensyuu", new ShainHensyuuController());
         routes.put("/app/shain_sakujyo", new ShainSakujyoController());
         routes.put("/app/complete", new CompleteController());

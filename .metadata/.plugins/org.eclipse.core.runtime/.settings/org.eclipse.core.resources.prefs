@@ -1,3 +1,4 @@
+description.autobuilding=false
 description.filestatelongevity=31536000000
 description.maxfilestates=1000
 description.maxfilestatesize=10485760
