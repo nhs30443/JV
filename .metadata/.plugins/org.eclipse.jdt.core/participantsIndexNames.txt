@@ -27,6 +27,8 @@ C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsea
 \HelloServlet\WEB-INF\src
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4036631235.index
 \polls\WEB-INF\src
+C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1077986770.index
+\IH13A06_JV31_10\src\main\java
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1692906846.index
 \IH13AXX_JV31_29_05\src\main\java
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2240787374.index
