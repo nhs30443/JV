@@ -5,6 +5,7 @@
 		<item key="selection" value=""/>
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="LIGHT_GRAY"/>
 			<item value="HELVETICA"/>
 			<item value="jsp"/>
 			<item value="DriverManager"/>

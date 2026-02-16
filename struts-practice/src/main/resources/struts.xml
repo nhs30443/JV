@@ -21,6 +21,15 @@
             <result>/WEB-INF/jsp/helloWorld.jsp</result>
         </action>
 
+        <action name="helloStruts" class="action.HelloStrutsAction">
+            <result name="success">/WEB-INF/jsp/helloStruts.jsp</result>
+            <result name="next">/WEB-INF/jsp/next.jsp</result>
+        </action>
+
+        <action name="user-confilm" class="action.HelloStrutsAction" method = "confilm">
+            <result name="next">/WEB-INF/jsp/next.jsp</result>
+        </action>
+
     </package>
 
 </struts>

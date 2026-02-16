@@ -13,6 +13,8 @@ C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsea
 \IH13A06_JV31_08\src\main\java
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\902998186.index
 \polls\WEB-INF\src
+C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3585414471.index
+\struts-practice\src\main\java
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3703222920.index
 \polls\WEB-INF\src
 C:\pleiades\2024-12\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\749466219.index
