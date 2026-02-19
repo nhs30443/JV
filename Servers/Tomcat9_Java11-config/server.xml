@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="struts-practice" path="/struts2-archetype-starter" reloadable="false" source="org.eclipse.jst.jee.server:struts-practice"/></Host>
+      <Context docBase="IH13A06_JV31_12" path="/struts2-archetype-starter" reloadable="false" source="org.eclipse.jst.jee.server:IH13A06_JV31_12"/></Host>
     </Engine>
   </Service>
 </Server>
